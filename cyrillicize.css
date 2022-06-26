@@ -1,0 +1,39 @@
+body {
+	background: lightslategray;
+	font-family: "Trebuchet MS",Verdana,Arial,serif;
+}
+
+h1 {
+	width: auto;
+	font-size: 4em;
+	margin: 1em auto;
+	text-align: center;
+	background: linear-gradient(180deg, #FFFFFF 33%, #0000FF 60%, #FF0000 100%);
+	background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+	}
+
+.textbox {
+	display: block;
+	width: 70vw;
+	margin: 0 auto;
+	text-align: center;
+	min-width: 600px;
+	max-width: 1000px;
+}
+
+.box {
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+}
+
+.button {
+	display: block;
+	margin: auto;
+	margin-top: 8px;
+	text-align: center;
+}
